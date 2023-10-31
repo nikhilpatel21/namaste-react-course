@@ -1,0 +1,55 @@
+# what is emmet?
+  Emmet is a free add-on for text editors that allows developers to type shortcuts that
+   are then expanded into full pieces of code. Emmet is built-in in many text editors like VS Code.
+
+# Diff bw Library and framework?
+  the key distinction between libraries and frameworks is in the level of control and structure they provide.
+ Libraries are more like tools that you use in your code, while frameworks are comprehensive structures that you 
+ build your code within.
+
+# What is CDN? Why do we use it?
+  A Content Delivery Network (CDN) is a network of geographically distributed servers designed to 
+  efficiently deliver web content, such as images, stylesheets, JavaScript files, and other assets, 
+  to users based on their geographical location.
+  CDNs are used in React applications to enhance performance, reliability, and security.
+  By leveraging a CDN, you can ensure that your React application loads quickly, is highly available, and efficiently 
+  serves users across the globe, all while reducing the load on your server infrastructure. 
+  This is particularly valuable in modern web development, where user experience and site performance are critical.
+
+# what is crossorigin in script tag in react?
+  The crossorigin attribute is used in the <script> tag when loading external JavaScript files
+   in a React or HTML application. It specifies how the browser should handle requests for 
+   cross-origin resources, i.e., resources that are hosted on a different domain than the one where your 
+   React application is running. 
+  This attribute is commonly used for security and to control access to resources.
+
+# React vs ReactDOM
+  ReactDOM is a package in the React ecosystem that provides the necessary bindings for rendering React components 
+  into the actual DOM of a web page. It essentially bridges the gap between React's virtual DOM and the 
+  browser's real DOM. ReactDOM is specifically focused on web applications and web development. 
+  Developers use ReactDOM methods
+  like ReactDOM.render() to mount React components into the HTML structure of a web page.
+
+   React is the core library for building user interfaces, while ReactDOM is an essential part of the React 
+   ecosystem that deals with rendering React components into the browser's DOM. The two work together to create 
+   interactive and dynamic web applications. It's not a matter of React vs. ReactDOM; 
+   rather, they complement each other to achieve the desired functionality in web development.
+
+# diffn bw react.devlopment.js and react.production.js via cdn?
+    When deploying a React application to a production environment, it is advisable to use
+     the react.production.js version for better performance and a smaller bundle size. During development, 
+    you can use react.development.js to take advantage of the additional debugging features it provides
+
+# async vs defer
+    async
+    When you include a <script> tag with the async attribute, the browser will begin downloading the script 
+    file immediately. However, it won't block the parsing of the HTML document.
+    The script will be executed as soon as it's downloaded, potentially before the HTML document is fully parsed. 
+    <script src="example.js" async></script>
+
+    defer 
+    When you include a <script> tag with the defer attribute, the browser will also begin downloading the 
+    script immediately, 
+    but it will defer the execution of the script until after the HTML document is fully parsed.
+
+
